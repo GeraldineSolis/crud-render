@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS usuarios (
+  id SERIAL PRIMARY KEY,
+  nombre TEXT,
+  email TEXT,
+  edad INTEGER,
+  fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
